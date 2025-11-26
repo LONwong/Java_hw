@@ -13,7 +13,7 @@ public class HW4 extends JPanel {
         g.fillOval(100, 100, 30, 30);
         g.fillOval(170, 100, 30, 30);
 
-        g.setColor(Color.BLACK);
+        g.setColor(Color.BLACK);  
         g.drawArc(100, 140, 100, 50, 0, -180);
 
         g.setColor(Color.BLUE);
