@@ -5,7 +5,7 @@ public class Main {
         DataSet dataSet = new DataSet();
 
         // 添加 Human 和 Student 对象
-        dataSet.add(new Human(170)); // 身高 170 cm
+        dataSet.add(new Huma        n(170)); // 身高 170 cm
         dataSet.add(new Human(180)); // 身高 180 cm
         dataSet.add(new Student(95)); // 学生成绩 95 分
         dataSet.add(new Student(88)); // 学生成绩 88 分
