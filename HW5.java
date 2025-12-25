@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-public class HW4 extends JPanel {
+public class HW5 extends JPanel {
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -22,7 +22,7 @@ public class HW4 extends JPanel {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Smile");
-        HW4 panel = new HW4();
+        HW5 panel = new HW5();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 400);
         frame.add(panel);
